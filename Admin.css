@@ -1,0 +1,315 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    cursor: default;
+}
+
+.pannelone {
+    width: 20%;
+    height: 830px;
+    background-color: #252b3b;
+    color: #6c7385;
+    font-size: 15px;
+}
+
+.pannelone a {
+    color: #6c7385;
+    text-decoration: none;
+}
+
+.panneltwo {
+    width: 80%;
+    height: 830px;
+    background-color: #f1f5f8;
+    position: relative;
+    cursor: default;
+}
+
+.panneltwo a {
+    color: #6c7385;
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: #252b3b;
+    box-shadow: 0px 0px 5px 0px black;
+    color: #fff;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    color: #fff;
+    padding: 10px;
+}
+
+.submenu {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    margin: 5px;
+    position: relative;
+}
+
+.pages {
+    color: #fff;
+    padding: 10px;
+}
+
+.components {
+    color: #fff;
+    padding: 10px;
+}
+
+.spanmenu {
+    padding-right: 10px;
+}
+
+.menuspan {
+    position: absolute;
+    left: 235px;
+}
+
+#three {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 185, 142);
+    text-align: center;
+    padding: 1px 5px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+#three {
+    color: #fff;
+}
+
+#eight {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    padding: 1px 5px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.navtwo {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.479);
+    color: #000;
+    padding: 10px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partone {
+    display: flex;
+}
+
+.menutwo {
+    padding: 15px;
+    align-items: center;
+
+}
+
+.search {
+
+
+    display: flex;
+    position: relative;
+
+}
+
+.search span {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+
+.search input {
+    color: #6c7385;
+    border: none;
+    outline: none;
+    background-color: rgba(211, 211, 211, 0.5);
+    ;
+    padding-left: 50px;
+    border-radius: 30px;
+    width: 240px;
+    height: 40px;
+    margin-top: 4px;
+}
+
+.megamenu {
+    padding: 15px;
+    color: #6c7385;
+    display: flex;
+}
+
+.megamenu a {
+    padding-left: 5px;
+}
+
+.parttwo {
+    display: flex;
+    margin-left: 400px;
+}
+
+.parttwo a {
+    margin: 0 10px;
+}
+
+.iconone {
+    padding: 15px;
+}
+
+.scan {
+    padding: 15px;
+}
+
+.notification {
+    padding: 15px;
+}
+
+.kevin {
+    padding: 15px;
+    display: flex;
+    color: #252b3b;
+}
+
+.setting {
+    padding: 15px;
+}
+
+.dashmain {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    cursor: default;
+}
+
+.dashboxmain {
+    display: flex;
+    cursor: default;
+}
+
+.dashbox {
+    width: 225px;
+    height: 175px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    
+}
+.ivon
+{
+    margin-top: 5px;
+}
+.number
+{
+    line-height: 30px;
+}
+.numberflex
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15PX;
+}
+.form
+{
+    margin-top: 45px;
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.dashboxsmall {
+    border-radius: 10px;
+    background-color: #fff;
+    /* display: flex; */
+}
+.product
+{
+    display: flex;
+    justify-content: space-between;
+}
+.report
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40vh;
+}
+.pro
+{
+    position: relative;
+}
+.pro::before
+{
+    content: ".";
+    font-size: 78px;
+    position: absolute;
+    bottom: 8px;
+    right: 70px;
+    color: green;
+}
+
+.dashboxsmallone {
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    /* justify-content: space-between; */
+    padding: 20px;
+}
+
+.dashboxsmalltwo {
+    width: 350px;
+    height: 240px;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dashboxdown {
+    width: 725px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    position: absolute;
+    top: 360px;
+    cursor: default;
+}
+
+.dashboxpmain {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dashboxp span {
+    padding: 10px 10px;
+    margin: 0px 1px;
+    background-color: #eff3f7;
+    border-radius: 3px;
+}
+.arrow-icon{
+    cursor: pointer;
+}
+
